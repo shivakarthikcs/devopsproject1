@@ -6,5 +6,6 @@ app.get('/', (req, res) => {
     res.send('DevOps CI/CD Project Working');
 });
 
-app.listen(3000, () => {
+app.listen(3000, '0.0.0.0', () => {
     console.log('Running on port 3000');
+});
